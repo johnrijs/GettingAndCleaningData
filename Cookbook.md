@@ -47,9 +47,10 @@ The transformation process is split into a number of steps:
 The tidy data file contains 180 observations of 7 variables. For every volunteer (30 in total), 6 activity types are stored per measurement (5 in total). 
 
 Below table lists the variables stored in the tidy data file.
+
 |variable|type|description|values|
 |--------|----|-----------|------|
-|activity|factor of 6 levels|type of activity measured| WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING|
+|activity | factor of 6 levels | type of activity measured | WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING|
 
 
 
