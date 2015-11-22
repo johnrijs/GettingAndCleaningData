@@ -10,7 +10,7 @@ The code expects the smartphone data to be placed in a particular directory stru
 
 ### Code explanation
 
-This section describes what the code does to reach its goal: deliver a tidy data set
+This section describes what the code does to reach its goal: deliver a tidy data set.
 
 #####1) Import column and activity names
 This step imports the column names from **/data/project/features.txt**. This file contains all column names for both train and test data. The column names ared tidied:
