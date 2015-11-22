@@ -58,9 +58,9 @@ print('6. Create intermediate data set with only mean and std columns')
 tidy_raw <- raw_data[grepl('mean|std|activity_type|subject_id', names(raw_data))]
 
 
-# take mean of e.g. columns 3:7 for every group of activity_type/subject_id
+# take mean of arbitrary number of columns (3:20) for every group of activity_type/subject_id
 print('7. Group data en write results to disk')
-tidy_data<- aggregate(tidy_raw[, 3:7], df[, 1:2], FUN = mean)
+tidy_data<- aggregate(tidy_raw[, 3:20], df[, 1:2], FUN = mean)
 # replace df_group$activity_type with activity$activity_name and merge data; [-1] means activity_type column is removed from result
 tidy_data <- merge(activity, tidy_data, by.x = 'activity_type', by.y = 'activity_type', all = TRUE)[-1]
 write.table(tidy_data, file = './data/project/tidy_data.txt', row.names = FALSE, sep = ',')
