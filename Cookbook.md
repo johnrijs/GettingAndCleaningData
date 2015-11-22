@@ -17,4 +17,12 @@ Below table lists all tables used for this process.
 |./data/project/test/test/Y_test.txt | Test data activity types|
 |./data/project/test/subject_test.txt | Test data subject (volunteer) id|
 
+####Variables (measurements) imported
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. Prefix 't' to denote time.'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+The set of variables that were estimated from these signals and used in this process are: 
+- mean(): Mean value
+- std(): Standard deviation
+
+
 
