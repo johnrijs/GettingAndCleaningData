@@ -39,8 +39,8 @@ This step concatenates the column of data imported in steps 2 and 3. This will a
 #####5) Bind the rows of train and test data
 This step concatenates the rows from step 4 into one big file (still in memory)
 
-#####6) Make a subset of the data leaving only the column that contain mean or std (standard deviation) data
-
+#####6) Make a subset of the data leaving only the columns that contain mean or std (standard deviation) data
+This step creates a new data frame that contains the activity type, subject id and all measurement columns that have mean or std data. For this purpose the `grepl` function is used.
 
 
 
