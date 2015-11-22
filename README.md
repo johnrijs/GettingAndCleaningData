@@ -34,7 +34,7 @@ This step imports activity types and subject id's from these files:
   - ./data/project/test/subject_test.txt (subject id's)
 
 #####4) Bind the column of activity types, subjects id's with either train and test data
-This step concatenates the column of data imported in steps 2 and 3. This will add the activity type and subject id to the measurement data.
+This step concatenates the columns of data imported in steps 2 and 3. This will add the activity type and subject id to the measurement data.
 
 #####5) Bind the rows of train and test data
 This step concatenates the rows from step 4 into one big file (still in memory)
@@ -43,7 +43,7 @@ This step concatenates the rows from step 4 into one big file (still in memory)
 This step creates a new data frame that contains the activity type, subject id and all measurement columns that have mean or std data. For this purpose the `grepl` function is used.
 
 #####7) Group the data by activity and subject and write result to disk
-This step groups the data by activity type and subject id by using the `aggregate` function. The result is merged with the activit names from step one to convert the activity types into tjeir respective names.
+This step groups the data by activity type and subject id by using the `aggregate` function. The result is merged with the activity names from step one to convert the activity types into tjeir respective names.
 The final step writes the tidy data set to disk: **./data/project/tidy_data.txt**
 
 ### Execution
