@@ -1,9 +1,9 @@
 ###Cookbook for importing, transforming and tidying Samsung smartphone data
-This cookbook describes how data is imported, transformed and written to disk in order to clean up and average the data per group of activity and subject.
+This cookbook describes how data is imported, transformed and written back to disk.
 
+The source data is collected from experiments carried out with a group of 30 volunteers where each person performed six activities wearing a smartphone. The goal of this proces is to read the smartphone data, transform and tidy it and group it by activity and per volunteer (subject). All measurement are averaged per group (aka mean). 
 
-
-#####Source files
+####Source files used
 | file              | description |
 |-------------------|-------------|
 |features_info.txt | Shows information about the variables used on the feature vector|
