@@ -8,14 +8,13 @@ Below table lists all tables used for this process.
 
 | file              | description |
 |-------------------|-------------|
-|features_info.txt | Shows information about the variables used on the feature vector|
-|features.txt | List of all features (column names)|
-|activity_labels.txt | Links the class labels with their activity name| 
-|train/X_train.txt | Training data|
-|train/y_train.txt | Training data activity types| 
-|subject_train.txt | Train data subject (volunteer) id|
-|test/X_test.txt | Test data|
-|test/y_test.txt | Test data activity types|
-|subject_test.txt | Test data subject (volunteer) id|
+|/data/project/features.txt | List of all features (column names)|
+|/data/project/activity_labels.txt | Links the class labels with their activity name| 
+|./data/project/train/train/X_train.txt | Training data|
+|./data/project/train/train/Y_train.txt | Training data activity types| 
+|./data/project/train/subject_train.txt | Train data subject (volunteer) id|
+|./data/project/test/test/X_test.txt | Test data|
+|./data/project/test/test/Y_test.txt | Test data activity types|
+|./data/project/test/subject_test.txt | Test data subject (volunteer) id|
 
 
