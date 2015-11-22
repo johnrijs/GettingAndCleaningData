@@ -43,6 +43,16 @@ The transformation process is split into a number of steps:
 6. Create a new data frame that contains the activity type, subject id and all measurement columns that have mean or std data. For this purpose the `grepl` function is used.
 7. Groups the data by activity type and subject id by using the `aggregate` function. The result is merged with the activity names from step one to convert the activity types into their respective names. The resulting tidy data is written to disk into file: **./data/project/tidy_data.txt**
 
+####Variables of tidy data
+The tidy data file contains 180 observations of 7 variables. For every volunteer (30 in total), 6 activity types are stored per measurement (5 in total). 
+
+Below table lists the variables stored in the tidy data file.
+|variable|type|description|values|
+|--------|----|-----------|------|
+|activity|factor of 6 levels|type of activity measured| WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING|
+
+
+
 
 
 
