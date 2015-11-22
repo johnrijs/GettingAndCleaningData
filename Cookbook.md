@@ -48,11 +48,15 @@ The tidy data file contains 180 observations of 7 variables. For every volunteer
 
 Below table lists the variables stored in the tidy data file.
 
-|variable|type|description|values|
+|variable|type|description|value|
 |--------|----|-----------|------|
 |activity | factor of 6 levels | type of activity measured | WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING|
-
-
+|subject_id | integer | Id of the volunteer involved | Ranges from 1-30 |
+|tBodyAcc_mean_X | numeric | Body linear acceleration in direction X | mean measurement|
+|tBodyAcc_mean_Y | numeric | Body linear acceleration in direction Y | mean measurement|
+|tBodyAcc_mean_Z | numeric| Body linear acceleration in direction Z | mean measurement|
+|tBodyAcc_std_X | numeric | Body linear acceleration in direction X | standard deviation measurement|
+|tBodyAcc_std_Y | numeric | Body linear acceleration in direction Y | standard deviation measurement|
 
 
 
