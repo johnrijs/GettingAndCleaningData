@@ -12,13 +12,13 @@ The code expects the smartphone data to be placed in a particular directory stru
 
 This section describes what the code does to reach its goal: deliver a tidy data set
 
-####1) Read column names
+#####1) Read column names
 This step reads the column names from **features.txt**. This file contains all column names for both train and test data. The column names ared tidied:
 * comma's are replaced with hyphens
 * all () brackets are removed
 * finally, all hyphens are replaced with underscores
 
-####2) Read activity names
+#####2) Read activity names
 This
 
 
