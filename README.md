@@ -8,7 +8,7 @@ The goal of the script is to deliver a tidy data set that contains the averages 
 
 The code expects the smartphone data to be placed in a particular directory structure: **[./data/project]**. Make sure the current working directory is set correctly in R of RStudio.
 
-### Code
+### Code explanation
 
 This section describes what the code does to reach its goal: deliver a tidy data set
 
@@ -41,6 +41,14 @@ This step concatenates the rows from step 4 into one big file (still in memory)
 
 #####6) Make a subset of the data leaving only the columns that contain mean or std (standard deviation) data
 This step creates a new data frame that contains the activity type, subject id and all measurement columns that have mean or std data. For this purpose the `grepl` function is used.
+
+#####7) Group the data by activity and subject and write result to disk
+This step groups the data by activity type and subject id by using the `aggregate` function. The result is merged with the activit names from step one to convert the activity types into tjeir respective names.
+The final step writes the tidy data set to disk: **./data/project/tidy_data.txt**
+
+### Execution
+Run the script as a whole in one go.
+
 
 
 
