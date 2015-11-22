@@ -33,8 +33,13 @@ This step imports activity types and subject id's from these files:
   - ./data/project/test/Y_test.txt (activity types)
   - ./data/project/test/subject_test.txt (subject id's)
 
+#####4) Bind the column of activity types, subjects id's with either train and test data
+This step concatenates the column of data imported in steps 2 and 3. This will add the activity type and subject id to the measurement data.
 
+#####5) Bind the rows of train and test data
+This step concatenates the rows from step 4 into one big file (still in memory)
 
+#####6) Make a subset of the data leaving only the column that contain mean or std (standard deviation) data
 
 
 
