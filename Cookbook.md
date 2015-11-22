@@ -1,4 +1,6 @@
 ###Cookbook for importing, transforming and tidying Samsung smartphone data
+This cookbook describes how data is imported, transformed and written to disk in order to clean up and average the data per group of activity and subject.
+
 
 
 | file              | description |
