@@ -47,7 +47,7 @@ This step groups the data by activity type and subject id by using the `aggregat
 The final step writes the tidy data set to disk: **./data/project/tidy_data.txt**
 
 ### Execution
-Run the script as a whole without passing any paramaters.
+Run the script as a whole without passing any parameters.
 
 
 
