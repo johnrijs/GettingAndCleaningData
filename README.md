@@ -12,14 +12,27 @@ The code expects the smartphone data to be placed in a particular directory stru
 
 This section describes what the code does to reach its goal: deliver a tidy data set
 
-#####1) Read column names
-This step reads the column names from **features.txt**. This file contains all column names for both train and test data. The column names ared tidied:
+#####1) Import column and activity names
+This step imports the column names from **features.txt**. This file contains all column names for both train and test data. The column names ared tidied:
 * comma's are replaced with hyphens
 * all () brackets are removed
 * finally, all hyphens are replaced with underscores
 
-#####2) Read activity names
-This
+The next step imports the activity names from **activity_labels.txt** associated with the activities performed by the volunteers.
+
+#####2) Import train and test data and change column names
+This step imports train data from **X_train.txt** and test data from **X_test.txt**. The column names imported in step 1 will be used as new column names for the imported train and test data.
+
+#####3) Import train and test activity types and subject id's
+This step imports activity types and subject id's from 
+
+
+
+
+
+
+
+
 
 
 
