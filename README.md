@@ -1,6 +1,6 @@
 ### Synopsis
 
-R file **run_analysis.R** reads, transforms and writes particular SmartPhone data. The data is derived from tests carried out by 30 volunteers wearing Samsung smartphones while performing certain activities like walking oe sitting. The data is split into a set of TRAIN and a set of TEST data.
+R file **run_analysis.R** reads, transforms and writes particular SmartPhone data. The data is derived from tests carried out by 30 volunteers wearing Samsung smartphones while performing certain activities like walking or sitting. The delivered data contains TRAIN and TEST data.
 
 The goal of the script is to combine the train and test data and deliver a tidy data set that contains the averages per column, grouped by activity and subject.
 
