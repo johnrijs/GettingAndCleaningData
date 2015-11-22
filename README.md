@@ -13,18 +13,25 @@ The code expects the smartphone data to be placed in a particular directory stru
 This section describes what the code does to reach its goal: deliver a tidy data set
 
 #####1) Import column and activity names
-This step imports the column names from **features.txt**. This file contains all column names for both train and test data. The column names ared tidied:
+This step imports the column names from **/data/project/features.txt**. This file contains all column names for both train and test data. The column names ared tidied:
 * comma's are replaced with hyphens
 * all () brackets are removed
 * finally, all hyphens are replaced with underscores
 
-The next step imports the activity names from **activity_labels.txt** associated with the activities performed by the volunteers.
+The next step imports the activity names from **/data/project/activity_labels.txt** associated with the activities performed by the volunteers.
 
 #####2) Import train and test data and change column names
-This step imports train data from **X_train.txt** and test data from **X_test.txt**. The column names imported in step 1 will be used as new column names for the imported train and test data.
+This step imports train data from **./data/project/train/X_train.txt** and test data from **./data/project/test/X_test.txt**. The column names imported in step 1 will be used as new column names for the imported train and test data.
 
 #####3) Import train and test activity types and subject id's
-This step imports activity types and subject id's from 
+This step imports activity types and subject id's from these files:
+
+* train data
+  - ./data/project/train/Y_train.txt (activity types)
+  - ./data/project/train/subject_train.txt (subject id's)
+* test data
+  - ./data/project/test/Y_test.txt (activity types)
+  - ./data/project/test/subject_test.txt (subject id's)
 
 
 
